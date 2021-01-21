@@ -4,7 +4,7 @@ metadata:
   name: db-pv
 spec:
   capacity:
-    storage: 100Mi
+    storage: 1Gi
   accessModes:
     - ReadWriteOnce
   hostPath:
